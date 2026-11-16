@@ -1,0 +1,5 @@
+Dept_ID,Dept_Name,Category,Head_Count_Range,Floor
+D01,Footwear,Footwear Production,30-60,Ground Floor
+D02,Knitwear,Textile Weaving,40-80,1st Floor
+D03,Printed Fabric,Fabric Processing,50-100,2nd Floor
+D04,Woven Labels,Labeling & Accessories,20-50,3rd Floor

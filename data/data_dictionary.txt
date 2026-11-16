@@ -1,0 +1,49 @@
+AXON MANUFACTURING: DATA DICTIONARY
+===================================
+Star schema: 1 fact table + 8 dimension tables. Period: 1 Jan 2015 to 31 Dec 2015.
+Currency: Indian Rupees (INR).
+
+fact_Production.csv  (10,679 rows; 10,000 valid work orders + 679 blank rows)
+  One row per production work order (document).
+  Doc_Num                  Work-order / document number. Blank on 679 rows, which are excluded from all analysis.
+  Date_FK                  Production date (joins to dim_Date.Date)
+  Buyer_ID                 Brand the order is for (joins to dim_Buyer)
+  Customer_Code            Customer placing the order (joins to dim_Customer)
+  Employee_Code            Operator who ran the job (joins to dim_Employee)
+  Machine_Code             Machine used (joins to dim_Machine)
+  Operation_Code           Manufacturing operation (joins to dim_Operation)
+  Dept_ID                  Production department (joins to dim_Department)
+  Item_Code                Item produced (joins to dim_Item)
+  Delivery_Status          Early / On Time / Late
+  Is_Repeat_Order          Yes / No
+  WO_Qty                   Units ordered on the work order
+  Press_Qty                Units pressed
+  Processed_Qty            Units processed
+  Produced_Qty             Finished units produced
+  Rejected_Qty             Units rejected at quality check
+  Today_Manufactured_Qty   Units manufactured on the day
+  Total_Qty                Cumulative quantity on the order
+  Total_Value              Manufacturing cost of the order (INR)
+  Per_Day_Machine_Cost     Machine running cost for the day (INR)
+  Rejection_Rate_Pct       Row-level rejection rate (%)
+  Efficiency_Rate_Pct      Row-level efficiency (%)
+  Machine_Utilization_Pct  Row-level machine utilization (%)
+  Cost_per_Unit            Row-level cost per unit (INR)
+  Note: the row-level % columns are not added up or averaged for headline KPIs.
+        Headline KPIs are recalculated from totals (see README).
+
+dim_Buyer.csv       (4)     Buyer_ID, Buyer_Name (H&M, Nike, Uniqlo, Zara), Region, Founded_Year, Segment
+dim_Customer.csv    (9,944) Customer_Code, Customer_Name, Customer_Type, City (Delhi, Ludhiana, Mumbai, Surat), Active
+dim_Date.csv        (365)   Date, Day, Day_Name, Week_Num, Month_Num, Month_Name, Quarter, Year, Is_Weekend, Season
+dim_Department.csv  (4)     Dept_ID, Dept_Name (Footwear, Knitwear, Printed Fabric, Woven Labels), Category, Head_Count_Range, Floor
+dim_Employee.csv    (899)   Employee_Code, Employee_Name, Department, Level
+                            Note: the training dataset reuses a small set of names, so different codes can share a name.
+                            Use Employee_Code as the identifier.
+dim_Item.csv        (10,000) Item_Code, Item_Name, Department_Name, Item_Category (Label, Fabric, Care Tag, Other)
+dim_Machine.csv     (86)    Machine_Code, Operation_Code, Operation_Name, Avg_Daily_Cost, Machine_Type (Textile, Specialty, CNC), Status
+dim_Operation.csv   (10)    Operation_Code, Operation_Name, Standard_Cost_Per_Hour, Is_Automated
+
+Cleaning applied
+  - 679 blank rows in fact_Production are kept in the raw file and filtered out by the SQL view vw_production_clean
+    (and by equivalent filters in Excel, Power BI and Tableau).
+  - Department name typo "Woven Lables" corrected to "Woven Labels" (dim_Department, dim_Item).

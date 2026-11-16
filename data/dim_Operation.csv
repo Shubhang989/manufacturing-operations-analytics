@@ -1,0 +1,11 @@
+Operation_Code,Operation_Name,Standard_Cost_Per_Hour,Is_Automated
+OP001,Weaving,850,No
+OP0010,Embroidery,1200,No
+OP002,Cut  & Fold,650,No
+OP003,Cross Checking,400,No
+OP004,Packing,300,No
+OP006,Printing,750,No
+OP008,Outsourcing,1100,No
+OP009,Ultrasonic,900,Yes
+OP011,Laser - Cutting 1,950,Yes
+OP012,Laser Cutting 2,980,Yes

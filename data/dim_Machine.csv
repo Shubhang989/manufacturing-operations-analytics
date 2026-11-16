@@ -1,0 +1,87 @@
+Machine_Code,Operation_Code,Operation_Name,Avg_Daily_Cost,Machine_Type,Status
+MC001,OP001,Weaving,1067.96,Textile,Active
+MC0010,OP001,Weaving,1017.21,Textile,Active
+MC002,OP001,Weaving,1442.98,Textile,Active
+MC003,OP001,Weaving,1004.89,Textile,Active
+MC004,OP001,Weaving,1069.1,Textile,Active
+MC005,OP001,Weaving,1015.88,Textile,Active
+MC006,OP001,Weaving,1006.82,Textile,Active
+MC007,OP001,Weaving,1007.49,Textile,Active
+MC008,OP001,Weaving,1006.29,Textile,Active
+MC009,OP001,Weaving,1002.69,Textile,Active
+MC011,OP001,Weaving,1056.36,Textile,Active
+MC012,OP001,Weaving,1051.33,Textile,Active
+MC013,OP001,Weaving,1005.81,Textile,Active
+MC014,OP001,Weaving,1006.02,Textile,Active
+MC015,OP001,Weaving,1071.76,Textile,Active
+MC016,OP001,Weaving,1008.76,Textile,Active
+MC017,OP001,Weaving,1005.32,Textile,Active
+MC018,OP001,Weaving,1046.81,Textile,Active
+MC019,OP001,Weaving,1002.19,Textile,Active
+MC020,OP001,Weaving,1016.64,Textile,Active
+MC021,OP001,Weaving,1099.5,Textile,Active
+MC022,OP001,Weaving,1034.7,Textile,Active
+MC023,OP001,Weaving,1049.34,Textile,Active
+MC024,OP001,Weaving,1428.77,Textile,Active
+MC025,OP002,Cut  & Fold,1003.55,Textile,Active
+MC026,OP004,Packing,1214.52,Textile,Active
+MC027,OP003,Cross Checking,1495.45,Specialty,Active
+MC028,OP002,Cut  & Fold,1576.56,Textile,Active
+MC029,OP002,Cut  & Fold,1004.28,Textile,Active
+MC030,OP002,Cut  & Fold,1047.94,Textile,Active
+MC031,OP002,Cut  & Fold,1033.97,Textile,Active
+MC032,OP002,Cut  & Fold,1103.15,Textile,Active
+MC033,OP002,Cut  & Fold,1004.47,Textile,Active
+MC034,OP002,Cut  & Fold,1003.91,Textile,Active
+MC035,OP002,Cut  & Fold,1004.82,Textile,Active
+MC036,OP002,Cut  & Fold,1503.22,Textile,Active
+MC037,OP002,Cut  & Fold,1025.34,Textile,Active
+MC038,OP002,Cut  & Fold,1023.0,Textile,Active
+MC039,OP002,Cut  & Fold,1030.68,Textile,Active
+MC042,OP002,Cut  & Fold,1013.86,Textile,Active
+MC043,OP002,Cut  & Fold,1012.04,Textile,Active
+MC044,OP002,Cut  & Fold,1007.51,Textile,Active
+MC045,OP002,Cut  & Fold,1003.8,Textile,Active
+MC046,OP002,Cut  & Fold,1033.76,Textile,Active
+MC047,OP002,Cut  & Fold,1014.03,Textile,Active
+MC048,OP002,Cut  & Fold,1003.78,Textile,Active
+MC049,OP002,Cut  & Fold,1008.34,Textile,Active
+MC050,OP002,Cut  & Fold,1016.99,Textile,Active
+MC051,OP002,Cut  & Fold,1013.64,Textile,Active
+MC052,OP002,Cut  & Fold,1252.77,Textile,Active
+MC053,OP002,Cut  & Fold,1002.04,Textile,Active
+MC054,OP002,Cut  & Fold,1032.62,Textile,Active
+MC056,OP006,Printing,1032.15,Specialty,Active
+MC058,OP006,Printing,1148.83,Specialty,Active
+MC060,OP006,Printing,1078.21,Specialty,Active
+MC061,OP006,Printing,1041.2,Specialty,Active
+MC062,OP006,Printing,1423.92,Specialty,Active
+MC064,OP008,Outsourcing,1058.76,Specialty,Active
+MC081,OP006,Printing,1613.49,Specialty,Active
+MC085,OP002,Cut  & Fold,1016.53,Textile,Active
+MC086,OP006,Printing,1526.64,Specialty,Active
+MC087,OP001,Weaving,1158.1,Textile,Active
+MC088,OP001,Weaving,1023.67,Textile,Active
+MC089,OP001,Weaving,1012.01,Textile,Active
+MC090,OP001,Weaving,1014.81,Textile,Active
+MC091,OP001,Weaving,1003.26,Textile,Active
+MC092,OP001,Weaving,1031.11,Textile,Active
+MC094,OP009,Ultrasonic,1044.1,Specialty,Active
+MC095,OP002,Cut  & Fold,1002.81,Textile,Active
+MC096,OP002,Cut  & Fold,1102.23,Textile,Active
+MC097,OP002,Cut  & Fold,1020.11,Textile,Active
+MC098,OP002,Cut  & Fold,1012.73,Textile,Active
+MC099,OP002,Cut  & Fold,1013.08,Textile,Active
+MC101,OP009,Ultrasonic,1700.13,Specialty,Active
+MC102,OP009,Ultrasonic,1068.02,Specialty,Active
+MC103,OP0010,Embroidery,1015.13,Specialty,Active
+MC106,OP011,Laser - Cutting,1792.8,CNC,Active
+MC107,OP012,Laser Cutting2,1427.13,CNC,Active
+MC122,OP001,Weaving,1036.46,Textile,Active
+MC123,OP001,Weaving,1010.07,Textile,Active
+MC124,OP001,Weaving,1041.22,Textile,Active
+MC125,OP001,Weaving,1010.65,Textile,Active
+MC126,OP002,Cut  & Fold,1046.09,Textile,Active
+MC127,OP002,Cut  & Fold,1004.74,Textile,Active
+MC128,OP002,Cut  & Fold,1000.87,Textile,Active
+MC129,OP002,Cut  & Fold,1016.7,Textile,Active
